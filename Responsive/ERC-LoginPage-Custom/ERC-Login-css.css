@@ -1,0 +1,202 @@
+html, body {
+			height: 100%;
+			margin: auto;
+			background-color: #000;
+			width:100%;
+			font-family:Verdana, Geneva, sans-serif;
+		}
+		div{
+			box-sizing:border-box;
+			height:100%;
+			margin:0;
+			line-height: 1.6;
+		}
+		.container-main{
+			background-color: #000;
+			width:60%;
+			float:left;
+			padding:30px 20px;
+		}
+		#logo{
+			padding:30px;
+			margin:0 30px;
+		}
+		.welcome{
+			padding:100px 30px 30px;
+			margin:30px 30px 10px;	
+			height:50%;	
+		}
+		h1{
+			font-size:2.8em;
+			color:#fff;
+			font-weight:200;
+			margin:0;
+		}
+		.welcome .subtitle{
+			font-size:1.3em;
+			font-weight:200;
+			margin:0;
+			padding:0;
+			color:rgba(255,255,255,.4);;
+		}
+		section p{
+			font-size:0.8em;
+			padding:20px 0;
+			color:rgba(255,255,255,.4);
+			min-height:100px;
+		}
+		#media-text{
+			display: none;
+		}
+		.btn{
+			text-decoration: none;
+			background-color: #17b37f;
+			color:#fff;
+			padding:10px 20px;
+			font-size:0.7em;
+			letter-spacing:1.2px;
+		}
+		nav{
+			height:auto;
+			display:block;
+			margin-left:30px;
+		}
+		.custom-select{
+			outline:0;
+		    background-color: #000;
+		    border:none;
+		}
+		nav a,.custom-select{
+			color:rgba(255,255,255,.4);
+			font-size:0.5em;
+			letter-spacing:1.2px;
+			padding:10px 25px;
+			text-decoration: none;
+		}
+		.container-login{
+			width:40%;
+			float:right;
+			background-color:#17b37f;
+			padding:150px 50px;
+		}
+		.login{
+			height:100%;
+			padding:50px;
+		}
+		.login .subtitle{
+			font-size:1.5em;
+			color:#fff;
+			font-weight:200;
+			padding-top:100px;
+			margin-bottom:10px;
+		}
+		.input,#login-button{
+			background-color:#17b37f;
+			border:none;
+			padding:20px 0 10px;
+			outline:0;
+		}
+		.input{
+			border-bottom:1px solid #fff;
+			width:100%;
+			margin:5px;
+		}
+		.input:focus{
+			box-shadow:-6px 6px 10px -10px #000;
+			text-indent: 10px;
+		}
+		::placeholder{
+			color:#fff;
+			padding-left:5px;
+		}
+		.form-button{
+			min-width:15em;
+		}
+		#login-button{
+			margin:20px 10px;
+			background-color: #fff;
+			color:#17b37f;
+			padding:10px 20px;
+			font-size:0.7em;
+			letter-spacing:1.2px;
+			font-weight:550;
+			cursor: pointer;
+		}
+		form a{
+			text-decoration: none;
+			font-size:0.8em;
+			color:#fff;
+			padding-right: 10px;
+		}
+		@media screen and (max-width:1000px){
+			body{
+				background-color: #17b37f;
+			}
+			div{
+				padding:20px;
+			}
+			#logo,.welcome,.login,.form-button{
+				padding:0px;
+				margin:0 auto;
+			}
+			img{
+				width:4.2em;
+				height:1.2em;
+			}
+			.container-main{
+				width:100%;
+				display:block;
+			}
+			h1{
+				font-size:2em;
+				color:#fff;
+				font-weight:200;
+				margin:0;
+			}
+			.welcome.subtitle{
+				font-size:1em;
+				padding-bottom: 10px;
+			}
+			
+			section p,nav{
+				display:none;
+			}
+			.btn,#login-button{
+				padding:6px 10px;
+				letter-spacing:0.8px;
+				font-size:0.5em;
+			}
+			#media-text{
+				display:block;
+				padding:10px 0 0;
+				margin:0;
+				min-height: 20px;
+			}
+			#media-text,.input,form a{
+				font-size:0.6em;
+			}
+			.container-login{
+				float:left;
+				width:100%;
+				padding:0;
+				
+			}
+			.login,.container-main,.container-login{
+				height:auto;
+			}
+			.login .subtitle{
+				font-size:1em;
+				padding-top:10px;
+				margin:15px;
+			}
+			.input{
+				border-bottom:1px solid #fff;
+				max-width:50%;
+				margin:10px;
+			}
+			.form-button{
+				min-width:15em;
+			}
+		}
+
+		

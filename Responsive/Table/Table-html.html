@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="tablecss.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div>
+        <table id="customers">
+            <!--Table Header starts here-->
+            <caption>
+                <span style="float:left;">
+                    <label for="entries">Show &nbsp;</label>
+                    <select name="entries" id="entries">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                    </select>
+                    <label>&nbsp; Entries</label>
+                </span>
+                <span id="title">Customer <b>Details</b></span>
+                <span class="search" style="float:right;">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search..">
+                </span>
+            </caption>
+            <!--Table Body starts here-->
+            <tr>
+                <th>&#35;</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Pin Code</th>
+                <th>Country</th>
+                <th colspan="3">Actions</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Thomas Hardy</td>
+                <td>89 Chiaroscuro Rd.</td>
+                <td>Portland</td>
+                <td>97219</td>
+                <td>USA</td>
+                <td class="eye"><i class="fa fa-eye"></i></td>
+                <td class="edit"><i class="fa fa-edit"></i></td>
+                <td class="trash"><i class="fa fa-trash"></i></td>
+             </tr>
+             <tr>
+                <td>2</td>
+                <td>Maria Anders</td>
+                <td>Obere Str 57</td>
+                <td>Berlin</td>
+                <td>12209</td>
+                <td>Germany</td>
+                <td class="eye"><i class="fa fa-eye"></i></td>
+                <td class="edit"><i class="fa fa-edit"></i></td>
+                <td class="trash"><i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Fran Wilson</td>
+                <td>C/ Araquil, 67</td>
+                <td>Mardrid</td>
+                <td>28023</td>
+                <td>Spain</td>
+                <td class="eye"><i class="fa fa-eye"></i></td>
+                <td class="edit"><i class="fa fa-edit"></i></td>
+                <td class="trash"><i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dominique Perrier</td>
+                <td>25, rue Lauriston</td>
+                <td>Paris</td>
+                <td>75016</td>
+                <td>France</td>
+                <td class="eye"><i class="fa fa-eye"></i></td>
+                <td class="edit"><i class="fa fa-edit"></i></td>
+                <td class="trash"><i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Martin Blank</td>
+                <td>Via Monte Blanco 34</td>
+                <td>Turin</td>
+                <td>10100</td>
+                <td>Italy</td>
+                <td class="eye"><i class="fa fa-eye"></i></td>
+                <td class="edit"><i class="fa fa-edit"></i></td>
+                <td class="trash"><i class="fa fa-trash"></i></td>
+            </tr>
+            <!--Table Footer starts here-->
+            <caption style="caption-side:bottom;">
+            <span style="float:left;">
+                <label>Showing <b>5</b> of <b>25</b> entries</label>
+            </span>
+            <span style="width:20em;float:right;">
+                <a href="#" class="pn">Previous</a>
+                <a href="#" class="page">1</a>
+                <a href="#" class="page">2</a>
+                <a href="#" class="page">3</a>
+                <a href="#" class="page">4</a>
+                <a href="#" class="pn">Next</a>
+            </span>
+        </caption>
+    </table>
+</div>
+</body>
+</html>
+           
+
+
+
+

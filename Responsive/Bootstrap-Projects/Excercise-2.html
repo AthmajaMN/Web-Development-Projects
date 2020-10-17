@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Company</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	.sidenav{
+  		background-color:#1569bd;
+  		color:#f00;
+  		height:100vh;
+  		padding-top:60px;
+  	}
+  	.nav a{
+  		color:#fff;
+  	}
+  	.nav a:hover{
+  		color:#000;
+  	}
+  	.bg-wid{
+  		background-color:#f00;
+  		padding:60px;
+  		height: 100vh; 
+  	}
+  	.bg-wid a{
+  		color:#fff;
+  	 	}
+  	.bg-wid p{
+  		padding: 40px 0;
+  	 	}
+  	.bg-main p{
+  	 	padding:60px 0;
+  	 	color:#000;
+  	 	}
+  	.bg-main{
+  	 	background-color: orange;
+  	  	padding: 60px 30px;
+  	  	height: 100vh;
+  	  	align-items:center;  		}
+  	.bg-main h1{
+   		margin-top: 0 !important;
+  	    }
+  	 @media screen and (max-width: 992px){
+  	 	.row{
+  	 		height:100vh;
+  	 	}
+  	 	 .sidenav {
+  	 	 	height: auto;
+  	 	 	padding-top: 10px;
+  	 	 }
+  	 	 .nav li{
+  	 	 	display: inline-flex !important;
+  	 	 }
+  	 	 .bg-wid{
+  	 	 	height:auto;
+  	 	 }
+  	 	 .bg-wid a{
+  	 	 	color:#fff;
+  	 	 }
+  	 	 .bg-main{
+  	 	 	height:auto;
+  	 	 }
+  	 	.bg-main p{
+  	 		padding:40px 0;
+  	 	}
+  	 }
+  	 
+  </style>
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 sidenav text-center">
+				<h3>X Services</h3>
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href="#home">HOME</a></li>
+					<li><a href="#services">SERVICES</a></li>
+					<li><a href="#projects">PROJECTS</a></li>
+					<li><a href="#info">INFO</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 col-md-push-6 bg-wid">
+				<a href="#">New Messages  <span class="badge badge-primary">2</span></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<form class="form-inline" action="#.php">
+					<div class="input-group">
+						<input type="email" class="form-control" placeholder="Email" widht="50" required>
+						<div class="input-group-btn"><button class="btn btn-primary">Subscribe</button></div>
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-6 col-md-pull-3 bg-main">
+				<h1>We are a digital agency</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+				<button type="button" class="btn btn-primary">Get Started</button>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
+
+
+		

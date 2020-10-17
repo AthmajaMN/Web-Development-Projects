@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GitHub Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	*{
+  		box-sizing: border-box;
+  	}
+  	html{
+  		display: block;
+  	}
+  	body{
+  		background-color:#f9f9f9;
+  		margin:0;
+  	}
+  	.row.content{
+  		width:100vw;
+  		height:100vh;
+  	}
+  	.heading{
+  		font-weight: 300!important;
+  		font-size: 24px !important;
+  		padding-bottom: 20px;
+  	}
+
+  	.logo{
+  		width: 300px;
+  		text-align: center;
+  		padding-top: 30px;
+  	}
+  	.login-label{
+  		font-weight: 500!important;
+
+  	}
+  	.well.content{
+  		width:300px;
+  		background-color:#fff;
+  	}
+  	.login-label{
+  		display:block;
+  	}
+  	.label-link{
+  		font-size:0.8em !important;
+  		font-weight: 700;
+  		float:right;
+  	}
+  	.btn{
+  		margin-top: 20px;
+
+  	}
+  	#well-content p{
+  		text-align: center;
+  		margin-bottom: 0!important;
+  	}
+  	.footer{
+  		width:300px;
+  		list-style-type: none;
+  		text-align:left;
+  		margin-left: 0;
+  		padding-left: 0;
+  		font-size: 0.8em;
+  		margin-top: 60px;
+  	}
+  	.footer li{
+  		display: inline-block;
+  		padding-left: 20px;
+  	}
+  	.contact{
+  		color:#586069;
+  	}
+  	@media screen and (max-width:767px){
+  		.container{
+  			display: flex;
+  			justify-content: center;
+  		}
+  	}
+
+  </style>
+</head>
+
+<body>
+	<div class="row content">
+		<div class="container">
+			<div class="col-sm-6 col-md-offset-4 col-sm-offset-3 col-xs-offset-1">
+				<div class="logo">
+					<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="img img-reponsive" width="60">
+					<h2 class="heading"> Sign In to GitHub</h2>
+				</div>
+				<div class="well content">
+					<form action="action.php">
+						<div class="form-group">
+							<label class="login-label" for="login-field">Username or email address</label>
+							<input type="text" name="login" id="login-field" class="form-control">
+						</div>
+						<div class="form-group">
+							<label  class="login-label" for="password">Password
+								<a class="label-link" href="#">Forgot password?</a>
+							</label>
+							<input type="password" name="password" id="password" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Sign in" class="btn btn-success btn-block">
+						</div>
+					</form>
+				</div>
+				<div class="well content" id="well-content">
+					<p>New to Github?
+						<a href="#">Create an account.</a>
+					</p>
+				</div>
+			    <footer class="text-center">
+					<ul class="footer">
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Security</a></li>
+						<li><a class="contact" href="#">Contact GitHub</a></li>
+					</ul>
+				</footer>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
